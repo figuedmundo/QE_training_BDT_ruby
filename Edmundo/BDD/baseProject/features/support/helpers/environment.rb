@@ -1,5 +1,13 @@
 require "base64"
 
-def get_token
-  Base64.encode64("#{$app_user}:#{$app_pass}")
+module Auth_app
+
+def Auth_app.get_hash(user, password)
+  Base64.encode64("#{user}:#{password}")
+end
+
+def Auth_app.make_base_auth
+    return "Basic " + get_hash($app_user, $app_password);
+end
+
 end

@@ -30,7 +30,7 @@ AfterConfiguration do |config|
   configuration = load_config_file('config.yml')
   # Load application configuration parameters
   $app_user = configuration['app']['user']
-  $app_pass = configuration['app']['password']
+  $app_password = configuration['app']['password']
   $app_host = configuration['app']['host']
   # $app_port = configuration['app']['port']
   $app_root = configuration['app']['rootPath']

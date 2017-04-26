@@ -1,6 +1,6 @@
 app:
-  user: figuedmundo
-  password: Control123
+  user: figuedmundo@gmail.com
+  password: mysql123
   host: todo.ly
   rootPath: /api
   # port: 80
