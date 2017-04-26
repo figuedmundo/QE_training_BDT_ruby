@@ -1,3 +1,4 @@
+# require 'bundler/setup'
 require 'pathname'
 require 'yaml'
 require 'json_spec/cucumber'
